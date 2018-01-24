@@ -25,4 +25,5 @@ map./escape \// = "ok with slash"
 map.$/dollar $$/$ = "ok with dollar slash"
 map.$/ /$ = "ok with space"
 
+// () may omit when invoke with parameters
 print map
