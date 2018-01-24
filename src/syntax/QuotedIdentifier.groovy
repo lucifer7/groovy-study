@@ -26,4 +26,6 @@ map.$/dollar $$/$ = "ok with dollar slash"
 map.$/ /$ = "ok with space"
 
 // () may omit when invoke with parameters
-print map
+println map
+// () must reserve when no parameter
+print map.toString()
